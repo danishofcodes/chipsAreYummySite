@@ -3,14 +3,14 @@ Imagine browsing through exciting chip promotions and effortlessly adding your f
 
 # Built with everyday web technologies:
 
-> Simple and clean:
-built with familiar tools like HTML, CSS, and Pure JavaScript, making it easy to use and navigate.
+Simple and clean:
+> built with familiar tools like HTML, CSS, and Pure JavaScript, making it easy to use and navigate.
 
-> Stylish and modern:
-Bootstrap adds a touch of polish and responsiveness to the design, ensuring a great experience on any device.
+Stylish and modern:
+> Bootstrap adds a touch of polish and responsiveness to the design, ensuring a great experience on any device.
 
-> Visually engaging:
-Captivating parallax effects create a dynamic and interactive experience as you explore different chip promotions. (Think cool scrolling animations!)
+Visually engaging:
+> Captivating parallax effects create a dynamic and interactive experience as you explore different chip promotions. (Think cool scrolling animations!)
 
 > Focus on functionality: While images add some visual flair, the core purpose is to help you find the best deals and keep track of your chip selections with ease.
 
