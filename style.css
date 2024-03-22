@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.lays{
+font-family: 'Delicious Handrawn', cursive;
+}
+
+nav{
+  font-family: 'Raleway', sans-serif;
+
+}
+.lays h6, p{
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+ul li{
+
+  border-bottom: 2px solid transparent;
+  border-width: 2px;
+  margin-right: 19px;
+}
+ul li:hover{
+  border-bottom: 2px solid #F32D53;
+  transition: 0.4s;
+  
+}
+.add-btn{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.notif-bubble{
+  background-color: #F32D53;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 19px;
+  border-radius: 20px;
+  font-size: 13px;
+  color:#fff;
+  font-weight: 400;
+  position: absolute;
+ right:72px;
+ top:9px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#layschips{
+  height: auto;
+  width: 473px;
+  margin-left: 133px;
+  margin-top: 85px;
+  position: absolute;
+  left: 418px;
+  top: 23px;
+  transform: rotate(-6deg);
+}
+
+
+.cartItem{
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  padding: 5px;
+}
+
+#sauce{
+  height: auto;
+  width: 473px;
+  margin-left: 233px;
+  margin-top: 306px;
+  position: absolute;
+  left: 0.3px;
+  top: 23px;
+  transform: rotate(-6deg);
+}
+#manychips{
+  height: auto;
+  width: 473px;
+  margin-left: 233px;
+  margin-top: 306px;
+  position: absolute;
+  right: 0.7px;
+  left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+ 
+}
+.thumbnail{
+  height: 80px;
+}
+
+.rm-btn{
+  max-height: 2em;
+  overflow: hidden;
+  line-height: 0px;
+}
+
+.totalAmtBox{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#addToBag{
+  position: relative;
+  z-index: 999;
+}
+
+
+/* .in-view {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+  animation: slideFadeIn 0.5s forwards;
+} */
+
+/* Define the animation for sliding and fading in with a delay */
+/* @keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+/* Apply the animation on scroll */
+/* .in-view:nth-of-type(2) {
+  animation-delay: 1s;
+}
+.in-view:nth-of-type(3) {
+  animation-delay: 1.5s;
+}
+.in-view:nth-of-type(4) {
+  animation-delay: 2s;
+}
+.in-view:nth-of-type(5) {
+  animation-delay: 2.5s;
+} */
+/* Define the initial state for the elements */
+.slide-fade {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Define the transition for the elements */
+.slide-fade {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Define the animation for sliding and fading in */
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation on scroll */
+.in-view {
+  animation: slideFadeIn 0.5s forwards;
+}
+
+/* Apply animation delay to each element */
+.in-view:nth-of-type(2) {
+  animation-delay: 1s;
+}
+.in-view:nth-of-type(3) {
+  animation-delay: 1.5s;
+}
+.in-view:nth-of-type(4) {
+  animation-delay: 2s;
+}
+.in-view:nth-of-type(5) {
+  animation-delay: 2.5s;
+}
