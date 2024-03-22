@@ -12,7 +12,8 @@ Stylish and modern:
 Visually engaging:
 > Captivating parallax effects create a dynamic and interactive experience as you explore different chip promotions. (Think cool scrolling animations!)
 
-> Focus on functionality: While images add some visual flair, the core purpose is to help you find the best deals and keep track of your chip selections with ease.
+Focus on functionality: 
+> While images add some visual flair, the core purpose is to help you find the best deals and keep track of your chip selections with ease.
 
 
 # Effortlessly manage your chip cravings:
