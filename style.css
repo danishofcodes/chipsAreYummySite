@@ -168,6 +168,8 @@ ul li:hover{
   }
 }
 
+
+
 /* Apply the animation on scroll */
 .in-view {
   animation: slideFadeIn 0.5s forwards;
@@ -185,4 +187,29 @@ ul li:hover{
 }
 .in-view:nth-of-type(5) {
   animation-delay: 2.5s;
+}
+.overlay{
+  display: none;
+ }
+
+ .overlay-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+ }
+
+@media screen and (max-width: 800px){
+     .overlay{
+      display: block;
+      position: absolute;
+      height: 100vh;
+      background-color: rgb(0, 84, 152) !important;
+      top: 0;
+      left: 0;
+      z-index: 999999;
+      width: 100vw;
+      color:#fff;
+     }
 }
