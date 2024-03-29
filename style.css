@@ -15,6 +15,14 @@ nav{
   font-family: 'Raleway', sans-serif;
 
 }
+
+.navFixed{
+  padding-left: 70px;
+    padding-right: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
 .lays h6, p{
     /* font-family: 'Fira Sans', sans-serif; */
     /* font-family: 'Inter', sans-serif; */
