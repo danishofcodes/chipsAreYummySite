@@ -91,7 +91,7 @@ function renderChipsInCart(val) {
                 <div class="chips"><img src="images/chipsthumbnail.png" alt="Chips" class="thumbnail"></div>
                 <div>
                     <h5>Lays BLT Family Size</h4>
-                    <p>Rs: 35 / 300gms</p>
+                    <p>Rs: 30.98 / 300gms</p>
                 </div>
                 <button class="btn btn-dark rm-btn" onclick="removeFromCart(this)" id=${"chipsNo-" + i * Date.now()}>remove</button>
             </div>`;
